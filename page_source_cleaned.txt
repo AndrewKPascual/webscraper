@@ -1,0 +1,40 @@
+Stack AI: The Middle-Layer of AI.indiana-scroll-container {
+  overflow: auto; }
+  .indiana-scroll-container--dragging {
+    scroll-behavior: auto !important; }
+    .indiana-scroll-container--dragging > * {
+      pointer-events: none;
+      cursor: -webkit-grab;
+      cursor: grab; }
+  .indiana-scroll-container--hide-scrollbars {
+    overflow: hidden;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    scrollbar-width: none; }
+    .indiana-scroll-container--hide-scrollbars::-webkit-scrollbar {
+      display: none !important;
+      height: 0 !important;
+      width: 0 !important;
+      background: transparent !important;
+      -webkit-appearance: none !important; }
+  .indiana-scroll-container--native-scroll {
+    overflow: auto; }
+
+.indiana-dragging {
+  cursor: -webkit-grab;
+  cursor: grab; }
+Sign upTalk to us
+            @keyframes scroll {
+              0% {
+                transform: translateX(0);
+              }
+              100% {
+                transform: translateX(calc(-100% * 0.16666666666666666));
+              }
+            }
+
+            .animate-scroll {
+              animation: scroll 20s linear infinite;
+              animation-delay: 0.1s;
+            }
+          Compose ApplicationsFine TuneLabel DataDeploy© 2023  Stack AI™ (Eigen Inc.) . All Rights Reserved.Made with<span class="heart"> ❤ </span>by<span class="inline-flex items-baseline">PhDs</span>
