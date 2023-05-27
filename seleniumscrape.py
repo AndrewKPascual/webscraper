@@ -13,7 +13,7 @@ driver = webdriver.Chrome(service=service, options=options)
 driver.get('https://www.stack-ai.com/')  # Replace with the URL of the website you want to scrape
 
 # Wait for the dynamic content to load (you may need to adjust the wait time)
-time.sleep(5)  # Adjust the delay as needed (in seconds)
+time.sleep(10)  # Adjust the delay as needed (in seconds)
 
 # Get the page source (HTML code) after the dynamic content has loaded
 page_source = driver.page_source
